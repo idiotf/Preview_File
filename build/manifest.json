@@ -11,6 +11,7 @@
   },
   "content_scripts": [{
     "matches": ["https://playentry.org/*"],
+    "css": ["dist/style.css"],
     "js": ["dist/index.js"]
   }],
   "browser_specific_settings": {
